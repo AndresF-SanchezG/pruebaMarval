@@ -41,7 +41,7 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **5. SERVICIOS (Services):**
 
-**proveedor.services.js:** Contiene la lógica de negocio relacionada con los proveedores, para acceder a los datos de la base de datos a través de Prisma.
+**proveedor.services.js:** Contiene la lógica de negocio relacionada con los proveedores **(CRUD)**, para acceder a los datos de la base de datos a través de Prisma.
 
 **6. ARCHIVOS DE CONFIGURACION:**
 
