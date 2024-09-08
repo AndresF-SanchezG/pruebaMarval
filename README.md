@@ -52,5 +52,5 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Author
 
-- LinkedIN - [Gustavo Sanchez](https://www.linkedin.com/in/andressanchez-dev/)
+- LinkedIN - [Andres Sanchez](https://www.linkedin.com/in/andressanchez-dev/)
 
