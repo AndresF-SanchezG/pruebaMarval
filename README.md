@@ -18,7 +18,7 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 - [Author](#author)
 
 
-## Overview
+## Resumen
 
 ### The challenge
 
