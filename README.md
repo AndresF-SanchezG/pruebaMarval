@@ -52,6 +52,5 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Author
 
-- Website - [Gustavo Sanchez](https://gusanchefullstack.dev/)
-- Frontend Mentor - [@gusanchefullstack](https://www.frontendmentor.io/profile/gusanchefullstack)
-- Twitter - [@gusanchedev](https://twitter.com/gusanchedev)
+- LinkedIN - [Gustavo Sanchez](https://www.linkedin.com/in/andressanchez-dev/)
+
