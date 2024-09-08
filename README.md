@@ -29,6 +29,12 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **migrations/:** Contiene las migraciones de la base de datos, que permiten cambiar el esquema a lo largo del tiempo.
 
+**3. RUTAS (routes):**
+
+**index.js:** Archivo principal que agrupa las rutas de la aplicación.
+
+**proveedor.router.js:** Define las rutas relacionadas con el manejo de proveedores.
+
 ## Author
 
 - Website - [Gustavo Sanchez](https://gusanchefullstack.dev/)
