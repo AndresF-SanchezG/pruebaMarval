@@ -37,15 +37,15 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **4. ESQUEMAS (schemas):**
 
-**proveedor.schema.js:** Define la validación de los datos relacionados con los proveedores, posiblemente para asegurarse de que los datos de entrada sean correctos.
+**proveedor.schema.js:** Define la validación de los datos relacionados con los proveedores, para asegurarse de que los datos de entrada sean correctos.
 
 **5. SERVICIOS (Services):**
 
-**proveedor.services.js:** Contiene la lógica de negocio relacionada con los proveedores, probablemente para acceder a los datos de la base de datos a través de Prisma.
+**proveedor.services.js:** Contiene la lógica de negocio relacionada con los proveedores, para acceder a los datos de la base de datos a través de Prisma.
 
-**6. Archivos de configuración:**
+**6. ARCHIVOS DE CONFIGURACION:**
 
-**.env:** Archivos para las variables de entorno (posiblemente claves de API, credenciales de base de datos, etc.).
+**.env:** Archivos para las variables de entorno (credenciales de base de datos, etc.).
 
 **.editorconfig, .eslintrc.json, .gitignore:** Configuración de estilo de código y exclusiones de Git.
 package.json y package-lock.json: Definen las dependencias del proyecto y los scripts necesarios para ejecutar la aplicación.
