@@ -17,7 +17,7 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 ## Estructura del proyecto
 
-**MIDDLEWARES:**
+**1. MIDDLEWARES:**
 
 **error.handler.js:** Middleware para manejar errores de forma centralizada en la aplicación.
 
