@@ -6,7 +6,7 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 
 ## Table of contents
 
-- [Resumen de la solucion propuesta](#overview)
+- [Resumen de la solución presentada](#Resumen)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
