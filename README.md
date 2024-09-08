@@ -39,6 +39,10 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **proveedor.schema.js:** Define la validación de los datos relacionados con los proveedores, posiblemente para asegurarse de que los datos de entrada sean correctos.
 
+**5. Servicios (Services):**
+
+**proveedor.services.js:** Contiene la lógica de negocio relacionada con los proveedores, probablemente para acceder a los datos de la base de datos a través de Prisma.
+
 ## Author
 
 - Website - [Gustavo Sanchez](https://gusanchefullstack.dev/)
