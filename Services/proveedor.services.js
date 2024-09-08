@@ -1,45 +1,12 @@
 const boom = require('@hapi/boom');
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
 
 
 class ProductsService {
   constructor() {
     this.proveedores = [];
-    this.generate();
-  }
-
-  generate() {
-    this.proveedores.push(
-      {
-        id: '1',
-        Nit: 1234556,
-        Nombre: 'Andres',
-        Apellido: 'Sanchez',
-        Cedula: 14636012,
-        Tipo_de_Proveedor: 'Nacional',
-        Tipo_de_Persona: 'Juridica',
-        Banco:'Davivienda',
-        NumeroCuenta: '567543',
-        TipoCuenta: 'Ahorros',
-        Socios: 'No Registra',
-        Estado:'Pendiente de Validación'
-
-        },
-        {
-          id: '2',
-          Nit: 89879678,
-          Nombre: 'Paola',
-          Apellido: 'Rodriguez',
-          Cedula: 14636012,
-          Tipo_de_Proveedor: 'Internacional',
-          Tipo_de_Persona: 'Natural',
-          Banco:'Helm',
-          NumeroCuenta: '7457858',
-          TipoCuenta: 'Corriente',
-          Socios: 'No Registra',
-          Estado:'Pendiente de Validación'
-        }
-
-    )
+    this.usuarios = [];
   }
 
   async create(data) {
@@ -47,61 +14,125 @@ class ProductsService {
 
       ...data
     }
-    this.proveedores.push(newProveedor);
-    return newProveedor
+
+    const createdProveedor = await prisma.proveedores.create({
+      data : {
+        ...newProveedor
+      }
+    });
+    return createdProveedor;
 
   }
 
   async find() {
-    return this.proveedores;
+    try {
+
+      const proveedores = await prisma.proveedores.findMany();
+      return proveedores;
+
+    } catch (error) {
+
+      throw error;
+
+    }
+
   }
 
   async findOne(id) {
+    try {
 
-    const proveedor = this.proveedores.find(item => item.id === id);
-    if(!proveedor) {
-      throw boom.notFound('Proveedor no encontrado');
+      const parsedId = parseInt(id, 10);
+
+      const proveedor = await prisma.proveedores.findUnique({
+        where: {
+          id: parsedId,
+        },
+      });
+
+      return proveedor;
+
+    } catch (error) {
+
+      throw error;
     }
-    return proveedor;
   }
 
   async update(id, changes) {
-    const index = this.proveedores.findIndex(item => item.id === id);
-    if(index === -1) {
-      throw boom.notFound('Proveedor no encontrado');
-    }
-    const proveedor = this.proveedores[index];
-    this.proveedores[index] = {
-      ...proveedor,
-      ...changes,
-    }
-    return this.proveedores[index];
+    const parsedId = parseInt(id, 10);
 
+    const proveedor = await prisma.proveedores.update({
+      where: {
+        id:parsedId,
+      },
+      data: {
+        ...changes,
+      }
+    });
+    return proveedor;
   }
 
   async delete(id) {
-    const index = this.proveedores.findIndex(item => item.id === id);
 
-    if(index === -1) {
-      throw boom.notFound('Proveedor no encontrado');
+    try {
+      const parsedId = parseInt(id, 10);
+      const proveedor = await prisma.proveedores.delete({
+        where: {
+          id: parsedId,
+        },
+      });
+
+      return { id: proveedor.id };
+
+    } catch (error) {
+
+      throw error;
+
     }
 
-    this.proveedores.splice(index, 1);
-    return { id };
   }
 
-  async validate(id, estado) {
-    const index = this.proveedores.findIndex(item => item.id === id);
-    if (index === -1) {
-      throw new Error('Proveedor no encontrado');
-    }
+  async validate(userId, proveedorId, nuevoEstado) {
+    try {
 
-    if (estado !== 'Aprobado' && estado !== 'Rechazado') {
-      throw new Error('Estado no válido. Debe ser "Aprobado" o "Rechazado".');
-    }
+      const estadoNormalizado = nuevoEstado.toUpperCase();
 
-    this.proveedores[index].Estado = estado;
-    return this.proveedores[index];
+      const parsedUserId = parseInt(userId, 10);
+      const parsedProveedorId = parseInt(proveedorId, 10);
+
+      const estadosValidos = ["APROBADO", "RECHAZADO", "PENDIENTE"];
+
+      if (!estadosValidos.includes(estadoNormalizado)) {
+        throw new Error("Estado inválido. Asegúrate de proporcionar un valor válido.");
+
+      }
+
+      const usuario = await prisma.usuarios.findUnique({
+        where: {
+          id: parsedUserId,
+        },
+      });
+
+      if (usuario.perfilUsuario === "ADMINISTRADOR") {
+
+        const updateEstadoProveedor = await prisma.proveedores.update({
+          where: {
+            id: parsedProveedorId,
+          },
+          data: {
+            Estado: estadoNormalizado,
+          },
+        });
+
+        return updateEstadoProveedor;
+
+      } else {
+
+        return "No tienes permiso para realizar modificaciones";
+      }
+    } catch (error) {
+
+      throw error;
+    }
   }
 
 }

@@ -1,7 +1,7 @@
 const Joi = require('joi');
 
 const id = Joi.number();
-const Nit = Joi.number();
+const Nit = Joi.string().min(3).max(40);
 const Nombre = Joi.string().min(3).max(40);
 const Apellido = Joi.string().min(3).max(40);
 const Cedula = Joi.number();
@@ -14,7 +14,7 @@ const Socios = Joi.string().min(2).max(20);
 const Estado = Joi.string().min(2).max(40);
 
 const createProveedorSchema = Joi.object({
-  id: id.required(),
+
   Nit:Nit.required(),
   Nombre:Nombre.required(),
   Apellido:Apellido.required(),

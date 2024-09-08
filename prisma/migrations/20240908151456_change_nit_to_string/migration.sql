@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Proveedores" ALTER COLUMN "Nit" SET DATA TYPE TEXT;

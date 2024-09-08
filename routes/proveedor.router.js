@@ -8,9 +8,19 @@ const router = express.Router();
 const service = new ProductsService();
 
 
-router.get('/', async (req, res)=> {
-  const proveedores = await service.find();
-  res.json(proveedores)
+router.get('/', async (req, res, next)=> {
+
+  try {
+
+    const proveedores = await service.find();
+    res.json(proveedores)
+
+  } catch (error) {
+
+    next(error);
+
+  }
+
 
 })
 
@@ -57,15 +67,20 @@ router.delete('/:id', async (req, res) => {
 })
 
 router.patch('/:id/validar', async (req, res) => {
-  const { id } = req.params;
-  const { estado } = req.body;
+  const { userId, proveedorId, nuevoEstado } = req.body;
+
+  console.log(nuevoEstado);
+  console.log(typeof(nuevoEstado));
+
 
   try {
-    const proveedor = await service.validate(id, estado);
-    res.json({ message: `Estado del proveedor actualizado a ${estado}`, proveedor });
+    const result = await service.validate(userId, proveedorId, nuevoEstado);
+    res.json({ message: result });
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 });
+
+
 
 module.exports = router;
