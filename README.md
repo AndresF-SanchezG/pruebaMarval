@@ -4,7 +4,7 @@ Desarrollar una aplicación que permita realizar un CRUD (Crear, Leer, Actualiza
 
 Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa paraobtener un token JWT, y usar ese token para consumir otra API.
 
-## Table of contents
+## Tabla de contenido
 
 - [Resumen de la solución presentada](#Resumen)
 - [Estructura del proyecto](#Estructura)
