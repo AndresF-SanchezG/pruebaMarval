@@ -21,7 +21,12 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **error.handler.js:** Middleware para manejar errores de forma centralizada en la aplicación.
 
-**validator.handler.js:** Middleware para validar datos de entrada, posiblemente utilizando los esquemas definidos en schemas
+**validator.handler.js:** Middleware para validar datos de entrada, posiblemente utilizando los esquemas definidos en schemas.
+
+**2. PRISMA:**
+
+**schema.prisma:** Define el esquema de la base de datos para la aplicación.
+**migrations/:** Contiene las migraciones de la base de datos, que permiten cambiar el esquema a lo largo del tiempo.
 
 ## Author
 
