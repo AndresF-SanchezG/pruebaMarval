@@ -17,9 +17,10 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 ## Estructura del proyecto
 
-**Middlewares:**
+**MIDDLEWARES:**
 
 **error.handler.js:** Middleware para manejar errores de forma centralizada en la aplicación.
+
 **validator.handler.js:** Middleware para validar datos de entrada, posiblemente utilizando los esquemas definidos en schemas
 
 ## Author
