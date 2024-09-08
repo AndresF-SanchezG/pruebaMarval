@@ -26,6 +26,7 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 **2. PRISMA:**
 
 **schema.prisma:** Define el esquema de la base de datos para la aplicación.
+
 **migrations/:** Contiene las migraciones de la base de datos, que permiten cambiar el esquema a lo largo del tiempo.
 
 ## Author
