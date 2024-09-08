@@ -35,6 +35,10 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **proveedor.router.js:** Define las rutas relacionadas con el manejo de proveedores.
 
+**ESQUEMAS (schemas):**
+
+**proveedor.schema.js:** Define la validación de los datos relacionados con los proveedores, posiblemente para asegurarse de que los datos de entrada sean correctos.
+
 ## Author
 
 - Website - [Gustavo Sanchez](https://gusanchefullstack.dev/)
