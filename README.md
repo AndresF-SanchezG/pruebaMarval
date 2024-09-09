@@ -69,6 +69,11 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Screenshots
 
+¨**Tabla Usuarios**
+
+![image](https://github.com/user-attachments/assets/77c9c512-749c-446d-85bb-3c7cd1467867)
+
+
 ## Author
 
 - LinkedIN - [Andres Sanchez](https://www.linkedin.com/in/andressanchez-dev/)
