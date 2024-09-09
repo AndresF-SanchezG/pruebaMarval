@@ -157,7 +157,7 @@ Finalmente pude resolver el ejercicio gracias a una aclaracion en donde las cred
 
 Obtenemos el token, procedemos a autenticarnos para recibir la informacion correspondiente.
 
-![image](https://github.com/user-attachments/assets/c31e64fd-f8f8-468b-85c3-775766998fae)
+![image](https://github.com/user-attachments/assets/0c573c93-04ad-484b-93d0-ba48b2368f0d)
 
 
 ## Aspectos de mejora
