@@ -53,6 +53,8 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Aspectos de mejora
 
+- No se considera la implementacion de base de datos de Usuarios con funciones CRUD para realizar la validacion solicitada. Se crea una tabla postgres Usuarios en la que ingresamos los datos de manera manual para tener usuarios para validar. 
+
 ## Author
 
 - LinkedIN - [Andres Sanchez](https://www.linkedin.com/in/andressanchez-dev/)
