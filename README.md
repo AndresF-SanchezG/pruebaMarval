@@ -69,14 +69,6 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Screenshots (CRUD)
 
-**Tabla Usuarios**
-
-![image](https://github.com/user-attachments/assets/77c9c512-749c-446d-85bb-3c7cd1467867)
-
-**Tabla Proveedores**
-
-![image](https://github.com/user-attachments/assets/b58277b7-5a06-40cc-8254-8679421b356e) ![image](https://github.com/user-attachments/assets/6f8c687c-0c93-43f7-86d5-9d85c35c1624)
-
 **Create**
 
 ![image](https://github.com/user-attachments/assets/b3d6a2c8-2c06-4ef4-9099-225f1a18c4f7)
@@ -95,7 +87,15 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Screenshots (Validación)
 
-Para realizar la validacion solicitada se crearon dos tablas.
+Para realizar la validacion solicitada se crearon dos tablas(Usuarios y Proveedores)
+
+**Tabla Usuarios**
+
+![image](https://github.com/user-attachments/assets/77c9c512-749c-446d-85bb-3c7cd1467867)
+
+**Tabla Proveedores**
+
+![image](https://github.com/user-attachments/assets/b58277b7-5a06-40cc-8254-8679421b356e) ![image](https://github.com/user-attachments/assets/6f8c687c-0c93-43f7-86d5-9d85c35c1624)
 
 
 
