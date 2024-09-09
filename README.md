@@ -8,6 +8,7 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 
 - [Resumen de la solución presentada](#Resumen)
 - [Estructura del proyecto](#Estructura)
+- [Aspectos para mejorar](#Aspectos)
  
 - [Author](#author)
 
@@ -49,6 +50,8 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 
 **.editorconfig, .eslintrc.json, .gitignore:** Configuración de estilo de código y exclusiones de Git.
 package.json y package-lock.json: Definen las dependencias del proyecto y los scripts necesarios para ejecutar la aplicación.
+
+## Aspectos de mejora
 
 ## Author
 
