@@ -81,8 +81,17 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ![image](https://github.com/user-attachments/assets/b3d6a2c8-2c06-4ef4-9099-225f1a18c4f7)
 
+**Read**
 
+![image](https://github.com/user-attachments/assets/50b020ca-7775-47d9-a561-43d5a7f1a224)
 
+**Update**
+
+![image](https://github.com/user-attachments/assets/fa998c17-07f9-44b2-a010-a0b41456f277)
+
+**Delete**
+
+![image](https://github.com/user-attachments/assets/6285cc73-bdc5-4851-bfd2-71449aa73a3e)
 
 
 ## Author
