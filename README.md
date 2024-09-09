@@ -95,6 +95,8 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 ## Screenshots (Validación)
 
+Para realizar la validacion solicitada se crearon dos tablas.
+
 
 
 
