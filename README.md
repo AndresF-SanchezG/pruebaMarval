@@ -53,13 +53,6 @@ Este ejercicio consiste una aplicación API o servicio backend construido con Ja
 **.editorconfig, .eslintrc.json, .gitignore:** Configuración de estilo de código y exclusiones de Git.
 package.json y package-lock.json: Definen las dependencias del proyecto y los scripts necesarios para ejecutar la aplicación.
 
-## Tecnologías utilizadas
-
-- Node.js
-- Express.js
-- Render(Render ofrece bases de datos PostgreSQL y MySQL, entre otras listas para usar)
-- Prisma(Prisma es una plataforma que simplifica el trabajo con bases de datos relacionales en aplicaciones Node.js y TypeScript,           mediante un ORM que ofrece una API intuitiva para realizar operaciones como consultas, creación, actualización y eliminación de datos     en bases como PostgreSQL, MySQL, SQLite, SQL Server y MongoDB.)
-- Insomnia (Herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
 
 ## Screenshots (CRUD)
 
@@ -119,6 +112,14 @@ Una vez ingresamos los campos requeridos, se realiza la actualizacion del estado
 - No se considera la implementacion de base de datos de Usuarios con funciones CRUD para realizar la validacion solicitada. Se crea una tabla postgres Usuarios en la que ingresamos los datos de manera manual para tener usuarios para validar dependiendo de su perfil, si tiene permiso de modificar la tabla proveedores.
 
 - No se realiza funciones de encripcion para el campo **password** en la tabla Usuarios.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Express.js
+- Render(Render ofrece bases de datos PostgreSQL y MySQL, entre otras listas para usar)
+- Prisma(Prisma es una plataforma que simplifica el trabajo con bases de datos relacionales en aplicaciones Node.js y TypeScript,           mediante un ORM que ofrece una API intuitiva para realizar operaciones como consultas, creación, actualización y eliminación de datos     en bases como PostgreSQL, MySQL, SQLite, SQL Server y MongoDB.)
+- Insomnia (Herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
 
 
 ## Author
