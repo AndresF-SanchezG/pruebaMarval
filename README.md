@@ -75,6 +75,10 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 
 **Tabla Proveedores**
 
+![image](https://github.com/user-attachments/assets/b58277b7-5a06-40cc-8254-8679421b356e) ![image](https://github.com/user-attachments/assets/6f8c687c-0c93-43f7-86d5-9d85c35c1624)
+
+
+
 
 ## Author
 
