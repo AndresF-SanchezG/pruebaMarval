@@ -9,7 +9,8 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 - [Resumen de la solución presentada](#Resumen)
 - [Estructura del proyecto](#Estructura)
 - [Aspectos para mejorar](#Aspectos)
-- [Tecnologías utilizadas]()
+- [Tecnologías utilizadas](#Tecnologías)
+- [ScreenShots](#ScreenShots)
  
 - [Author](#author)
 
@@ -65,6 +66,8 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 - Render(Base de Datos Postgres)
 - Prisma(ORM)
 -Insomnia (herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
+
+## Screenshots
 
 ## Author
 
