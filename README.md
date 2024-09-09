@@ -89,7 +89,8 @@ Para realizar la validacion solicitada se crearon dos tablas(Usuarios y Proveedo
 
 **Tabla Proveedores**
 
-![image](https://github.com/user-attachments/assets/b58277b7-5a06-40cc-8254-8679421b356e) ![image](https://github.com/user-attachments/assets/6f8c687c-0c93-43f7-86d5-9d85c35c1624)
+![image](https://github.com/user-attachments/assets/19ce1185-d30d-47b7-9bae-02047da871b6)
+![image](https://github.com/user-attachments/assets/28f0d281-7ae5-44b4-8105-5eef6ef61c8a)
 
 La tabla usuarios contiene los perfiles de las personas administrativas que podrian tener permiso para cambiar el estado en la tabla proveedores. Los Usuarios con perfil BASICO no tienen permiso para realizar cambios, en cambio, los usuarios con perfil ADMINISTRADOR si tienen permiso para realizar cambios en el estado.
 
