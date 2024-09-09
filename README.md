@@ -9,6 +9,7 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 - [Resumen de la solución presentada](#Resumen)
 - [Estructura del proyecto](#Estructura)
 - [Aspectos para mejorar](#Aspectos)
+- [Tecnologías utilizadas]()
  
 - [Author](#author)
 
@@ -56,6 +57,13 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 - No se considera la implementacion de base de datos de Usuarios con funciones CRUD para realizar la validacion solicitada. Se crea una tabla postgres Usuarios en la que ingresamos los datos de manera manual para tener usuarios para validar dependiendo de su perfil, si tiene permiso de modificar la tabla proveedores.
 
 - No se realiza funciones de encripcion para el campo **password** en la tabla Usuarios.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Render(Base de Datos Postgres)
+- Prisma(ORM)
+-Insomnia (herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
 
 ## Author
 
