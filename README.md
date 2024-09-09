@@ -67,7 +67,7 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 - Prisma(Prisma es una plataforma que simplifica el trabajo con bases de datos relacionales en aplicaciones Node.js y TypeScript,           mediante un ORM que ofrece una API intuitiva para realizar operaciones como consultas, creación, actualización y eliminación de datos     en bases como PostgreSQL, MySQL, SQLite, SQL Server y MongoDB.)
 - Insomnia (Herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
 
-## Screenshots
+## Screenshots (CRUD)
 
 **Tabla Usuarios**
 
@@ -92,6 +92,11 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 **Delete**
 
 ![image](https://github.com/user-attachments/assets/6285cc73-bdc5-4851-bfd2-71449aa73a3e)
+
+## Screenshots (Validación)
+
+
+
 
 
 ## Author
