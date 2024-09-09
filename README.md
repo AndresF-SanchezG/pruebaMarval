@@ -107,7 +107,7 @@ Una vez ingresamos los campos requeridos, se realiza la actualizacion del estado
 
 ![image](https://github.com/user-attachments/assets/7bd284af-c82a-4685-aff3-003aeb65396f)
 
-## Screenshots (Consumo de Api)
+## Screenshots (Consumo de Api - Insomina)
 
 El ejercicio de consumo de api con JWT requiere realizar una solicitud al siguiente enlace(https://analyticsdev.app.marval.com.co/api/jwtjde/loginjwt) para obtener un token de autentificacion, sin embargo, el servidor no realiza ninguna respuesta.
 
@@ -128,6 +128,34 @@ Con el token la documentacion pide realizar:
 Ingresamos el token en los headers realizamos la solicitud y obtenemos la respuesta:
 
 ![image](https://github.com/user-attachments/assets/c3d7b3d8-43d2-4422-82c8-29b3ae888dbd)
+
+## Screenshots (Consumo de Api - Node.js)
+
+Una vez comprobada a traves de insomnia que la APi Fake funciona, realizamos el consumo utilizando node.js
+
+Primero creamos un nuevo router(Auth) para poder utilizarla en la misma api del proyecto.
+
+![image](https://github.com/user-attachments/assets/b659a550-a4a4-46cf-b5bf-541ac8e48861)
+
+Una vez creado el nuevo router, realizamos las solicitud para obtener el token:
+
+![image](https://github.com/user-attachments/assets/d2551eb8-751c-4705-9b4a-f5663e13fe52)
+
+Con el la respuesta que incluye el token, realizamos la autentificacion: 
+
+![image](https://github.com/user-attachments/assets/f3ca967a-4224-45ce-86f0-d187dcbaa846)
+
+Realizada la autentificacion, obtenemos el perfil de usuario la cual observamos en la ruta (http://localhost:3000/api/v1/auth/login)
+
+![image](https://github.com/user-attachments/assets/1baa57c1-2a42-4298-9a7c-6c3d114dc977)
+
+
+
+
+
+
+
+
 
 
 
