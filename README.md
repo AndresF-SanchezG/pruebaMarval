@@ -187,6 +187,8 @@ Realizada la autentificacion, obtenemos el perfil de usuario la cual observamos 
 
 [Render - Database](https://docs.render.com/databases)
 
+[Prisma - ORM](https://www.prisma.io/docs/orm)
+
 
 
 ## Author
