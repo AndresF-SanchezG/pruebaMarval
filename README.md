@@ -8,10 +8,10 @@ Adicionalmente, la aplicación debe ser capaz de autenticarse en una API externa
 
 - [Resumen de la solución presentada](#Resumen)
 - [Estructura del proyecto](#Estructura)
+- [ScreenShots](#ScreenShots)
 - [Aspectos para mejorar](#Aspectos)
 - [Tecnologías utilizadas](#Tecnologías)
-- [ScreenShots](#ScreenShots)
- 
+- [Documentación](#Documentación)
 - [Author](#author)
 
 
