@@ -1,0 +1,2 @@
+-- CreateEnum
+CREATE TYPE "Cuenta" AS ENUM ('AHORROS', 'CORRIENTE');

@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Proveedores" ALTER COLUMN "Estado" SET DEFAULT 'PENDIENTE';

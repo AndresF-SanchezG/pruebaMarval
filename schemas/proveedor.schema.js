@@ -4,11 +4,11 @@ const id = Joi.number();
 const Nit = Joi.string().min(3).max(40);
 const Nombre = Joi.string().min(3).max(40);
 const Apellido = Joi.string().min(3).max(40);
-const Cedula = Joi.number();
+const Cedula = Joi.string().min(3).max(40);
 const Tipo_de_Proveedor = Joi.string().min(3).max(20);
 const Tipo_de_Persona = Joi.string().min(3).max(20);
 const Banco = Joi.string().min(3).max(20);
-const NumeroCuenta = Joi.number();
+const NumeroCuenta = Joi.string().min(2).max(40);
 const TipoCuenta = Joi.string().min(3).max(20);
 const Socios = Joi.string().min(2).max(20);
 const Estado = Joi.string().min(2).max(40);
@@ -25,7 +25,7 @@ const createProveedorSchema = Joi.object({
   NumeroCuenta:NumeroCuenta.required(),
   TipoCuenta:TipoCuenta.required(),
   Socios:Socios.required(),
-  Estado:Estado.required(),
+  // Estado:Estado.required(),
 
 })
 

@@ -39,10 +39,18 @@ router.get('/:id',
 
 router.post('/',
   ValidatorHandler(createProveedorSchema, 'body'),
-  async (req, res) => {
-  const body = req.body;
-  const newProveedor = await service.create(body)
-  res.status(201).json(newProveedor)
+  async (req, res, next) => {
+    try {
+      const body = req.body;
+      const newProveedor = await service.create(body)
+      res.status(201).json(newProveedor)
+
+    } catch (error) {
+
+      next(error);
+
+    }
+
 })
 
 router.patch('/:id',

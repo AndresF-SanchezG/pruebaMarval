@@ -17,6 +17,7 @@ enum Estado {
   APROBADO
   RECHAZADO
   PENDIENTE
+
 }
 
 enum Perfil {
@@ -24,19 +25,35 @@ enum Perfil {
   BASICO
 }
 
+enum Proveedor {
+  NACIONAL
+  EXTRANJERO
+}
+
+enum Persona {
+  NATURAL
+  JURIDICA
+}
+
+enum Cuenta {
+  AHORROS
+  CORRIENTE
+}
+
+
 model Proveedores {
   id Int @id @default(autoincrement())
   Nit String @unique
   Nombre String
   Apellido String
-  Cedula Int
-  Tipo_de_Proveedor String
-  Tipo_de_Persona String
+  Cedula String
+  Tipo_de_Proveedor Proveedor
+  Tipo_de_Persona Persona
   Banco String
-  NumeroCuenta Int
+  NumeroCuenta String
   TipoCuenta String
   Socios String
-  Estado Estado
+  Estado Estado @default(PENDIENTE)
 
 }
 
