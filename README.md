@@ -113,6 +113,8 @@ El ejercicio de consumo de api con JWT requiere realizar una solicitud al siguie
 
 ![image](https://github.com/user-attachments/assets/4774c213-03f7-447d-be74-02f146e82df4)
 
+Sin embargo, anteriormente a forma de estudio, habia realizado un ejercicio similar utilizando la **API FAKE** de la escuela en linea **PLATZI**. Ver [Ejercicio FAKE API - Platzi](https://fakeapi.platzi.com/en/rest/auth-jwt/)
+
 
 
 
