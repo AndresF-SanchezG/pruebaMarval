@@ -125,7 +125,7 @@ Con el token la documentacion pide realizar:
 
 ![image](https://github.com/user-attachments/assets/ff162258-48cb-43bf-9dda-394bce9183d0)
 
-Ingresamos el token en los headers y realizamos la solicitud:
+Ingresamos el token en los headers realizamos la solicitud y obtenemos la respuesta:
 
 ![image](https://github.com/user-attachments/assets/c3d7b3d8-43d2-4422-82c8-29b3ae888dbd)
 
