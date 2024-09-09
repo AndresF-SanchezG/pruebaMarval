@@ -107,6 +107,16 @@ Una vez ingresamos los campos requeridos, se realiza la actualizacion del estado
 
 ![image](https://github.com/user-attachments/assets/7bd284af-c82a-4685-aff3-003aeb65396f)
 
+## Screenshots (Consumo de Api)
+
+El ejercicio de consumo de api con JWT requiere realizar una solicitud al siguiente enlace(https://analyticsdev.app.marval.com.co/api/jwtjde/loginjwt) para obtener un token de autentificacion, sin embargo, el servidor no realiza ninguna respuesta.
+
+![image](https://github.com/user-attachments/assets/4774c213-03f7-447d-be74-02f146e82df4)
+
+
+
+
+
 ## Aspectos de mejora
 
 - No se considera la implementacion de base de datos de Usuarios con funciones CRUD para realizar la validacion solicitada. Se crea una tabla postgres Usuarios en la que ingresamos los datos de manera manual para tener usuarios para validar dependiendo de su perfil, si tiene permiso de modificar la tabla proveedores.
