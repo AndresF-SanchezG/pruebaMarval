@@ -149,20 +149,15 @@ Realizada la autentificacion, obtenemos el perfil de usuario la cual observamos 
 
 ![image](https://github.com/user-attachments/assets/1baa57c1-2a42-4298-9a7c-6c3d114dc977)
 
+## Screenshots (Consumo de Api - Ejercicio Marval - Insomina)
 
+Finalmente pude resolver el ejercicio gracias a una aclaracion en donde las credenciales de autentificacion deben ir en minusculas.
 
+![image](https://github.com/user-attachments/assets/969b374a-ce2a-41f6-98bf-4a64c3b91f35)
 
+Obtenemos el token, procedemos a autenticarnos para recibir la informacion correspondiente.
 
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/c31e64fd-f8f8-468b-85c3-775766998fae)
 
 
 ## Aspectos de mejora
@@ -188,8 +183,6 @@ Realizada la autentificacion, obtenemos el perfil de usuario la cual observamos 
 [Render - Database](https://docs.render.com/databases)
 
 [Prisma - ORM](https://www.prisma.io/docs/orm)
-
-
 
 ## Author
 
