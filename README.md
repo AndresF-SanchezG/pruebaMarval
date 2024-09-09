@@ -121,6 +121,18 @@ Obtengo la siguiente respuesta(Token)
 
 ![image](https://github.com/user-attachments/assets/c0707252-949f-45cd-a3f6-95b16594c98a)
 
+Con el token la documentacion pide realizar:
+
+![image](https://github.com/user-attachments/assets/ff162258-48cb-43bf-9dda-394bce9183d0)
+
+Ingresamos el token en los headers y realizamos la solicitud:
+
+![image](https://github.com/user-attachments/assets/c3d7b3d8-43d2-4422-82c8-29b3ae888dbd)
+
+
+
+
+
 
 
 
