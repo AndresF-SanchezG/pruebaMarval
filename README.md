@@ -61,6 +61,7 @@ package.json y package-lock.json: Definen las dependencias del proyecto y los sc
 ## Tecnologías utilizadas
 
 - Node.js
+- Express.js
 - Render(Base de Datos Postgres)
 - Prisma(ORM)
 -Insomnia (herramienta de software que se utiliza para realizar pruebas y hacer solicitudes a APIs)
